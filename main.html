@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Table</title>
+    <style>
+        /* Table Styling */
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            background-color: yellow;
+            margin: 20px auto;
+        }
+
+        /* Border Styling for Table, Headers, and Cells */
+        table, th, tr, td {
+            border: 1px solid black;
+        }
+
+        /* Header Styling */
+        th {
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        /* Cell Styling */
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* Caption Styling */
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Student Details Table -->
+    <table>
+        <!-- Caption -->
+        <caption>Student Details</caption>
+        
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
 
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>Aarav Sharma</td>
+                <td>20</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Sanya Gupta</td>
+                <td>21</td>
+                <td>Electronics</td>
+            </tr>
+            <tr>
+                <td>Rahul Verma</td>
+                <td>22</td>
+                <td>Mechanical</td>
+            </tr>
+            <tr>
+                <td>Anjali Nair</td>
+                <td>20</td>
+                <td>Biotechnology</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-
 </html>
